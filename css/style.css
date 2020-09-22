@@ -1,0 +1,65 @@
+/*----------------------------*/
+/*      General Styling       */
+/*----------------------------*/
+
+.text-gray, a {
+    color: #808080 !important;
+}
+
+a:hover {
+    color: #808080;
+}
+
+#convertTo {
+    font-weight: 400;
+}
+
+.rounded-lg {
+    border-radius: 25px;
+}
+
+.rounded-md {
+    border-radius: 15px;
+}
+
+.input {
+    width: 250px;
+    height: 75px;
+    border: 1px solid lightgray;
+    font-size: 2em;
+}
+
+/*----------------------------*/
+/*     End General Styling    */
+/*----------------------------*/
+
+
+
+/*----------------------------*/
+/*   Remove Default Styling   */
+/*----------------------------*/
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+select, input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*----------------------------*/
+/* End Remove Default Styling */
+/*----------------------------*/

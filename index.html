@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Google Font(s) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row" id="currArea">
+            <div class="col">
+                <h1>Breweries in <span id="currCity"></span>:</h1>
+                <div id="current"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Breweries in nearby cities:</h2>
+                <div id="nearby"></div>
+            </div>
+        </div>
+    </div>
+        
+
+    
+    
+    
+    
+    
+    <script>
+        
+    //    function getLocation() {
+    //        if (navigator.geolocation) {
+    //            navigator.geolocation.watchPosition(showPosition, showError);
+    //        } else {
+    //            console.log("Geolocation is not supported by this browser.");
+    //        }
+    //    }
+       
+    //    function showPosition(position) {
+    //        console.log("lat: " + position.coords.latitude);
+    //        console.log("lon: " + position.coords.longitude);
+    //         var postal = getPostal(position);
+    //    }
+
+    //    function showError(error) {
+    //        switch(error.code) {
+    //            case error.PERMISSION_DENIED:
+    //                console.log("User denied the request for Geolocation.");
+    //                break;
+    //            case error.POSITION_UNAVAILABLE:
+    //                console.log("Location information is unavailable.");
+    //                break;
+    //            case error.TIMEOUT:
+    //                console.log("The request to get user location timed out.");
+    //                break;
+    //            case error.UNKNOWN_ERROR:
+    //                console.log("An unknown error occurred.");
+    //                break;
+    //        }
+    //    }
+
+    // //    function getPostal(position) {
+    // //        var lat = position.coords.latitude;
+    // //        var lon = position.coords.longitude;
+    // //        var url = "http://api.geonames.org/findNearbyPostalCodesJSON?lat=" + lat + "&lng=" + lon + "&username=demo";
+    // //        $.getJSON(url,
+    // //             function(response){
+    // //                 console.log(response);
+    // //         });
+    // //    }
+        
+    //     $(document).ready(function(){
+    //         $.getJSON("https://api.openbrewerydb.org/breweries?by_postal=17602",
+    //             function(response){
+    //                 console.log(response);
+    //         });
+    //     });
+        
+    //     getLocation();
+    </script>
+    
+</body>
+</html>
